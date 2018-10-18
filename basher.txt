@@ -1,0 +1,2 @@
+that is the text
+which i want to BASH
