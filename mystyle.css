@@ -1,0 +1,44 @@
+.body_class {
+    margin: 0;
+    padding: 0;
+    background-color: #687b95;
+}
+
+.body_shapochka {
+    width: 100%;
+    height: 30px;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.body_body {
+    margin: auto;
+    max-width: 1200px;
+    border: solid black 1px;
+}
+
+.body_miniContainer {
+    max-width: 300px;
+    height: 500px;
+    background-color: chocolate;
+    display: inline-block;
+    border: solid black 1px;
+}
+
+.body_kartinka {
+    max-width: 300px;
+}
+
+.body_podpis {
+    height: 50px;
+}
+
+.body_megoContainer {
+    margin-left: 15px;
+    margin-right: auto;
+    background-color: #d2ac41;
+    display: inline-block;
+    max-width: 750px;
+    width: 100%;
+    height: 500px;
+    border: solid black 1px;
+}

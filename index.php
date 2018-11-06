@@ -4,10 +4,11 @@
     <title>Vlad Pecherytsya | Blog</title>
     <script src=kek.js></script>
     <link rel="shortcut icon" type="image/x-icon" href="icons/favicon.ico" />
-    <link rel=stylesheet type="text/css" href="style.css">
+    <link rel=stylesheet type="text/css" href="mystyle.css">
 </head>
-<body class="pisya">
-<!-- The overlay -->
+<body class="body_class">
+
+<?php /*
 <div id="myNav" class="overlay">
 
     <!-- Button to close the overlay navigation -->
@@ -40,12 +41,29 @@
         </div>
     </div>
 </div>
-<!-- Next div is going to bottom -->
 <div>
 
 </div>
-<!-- Use any element to open/show the overlay navigation menu -->
 <button onclick="pisya()">pisya</button>
+
+ */?>
+
+<div class="body_shapochka">
+
+</div>
+<div class="body_body">
+    <div class="body_miniContainer">
+        <div class="body_kartinka">
+            <img src="img_avatar2.png" onclick="openNav()" alt="Avatar" style="width:100%">
+        </div>
+        <div class="body_podpis">
+
+        </div>
+    </div>
+    <div class="body_megoContainer">
+
+    </div>
+</div>
 
 </body>
 </html>
