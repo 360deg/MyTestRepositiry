@@ -8,6 +8,19 @@ function closeNav() {
     document.getElementById("myNav").style.width = "0%";
 }
 
+function addcontent(cont) {
+    closeNav();
+    if (cont=="ab")
+    {
+        pisya();
+        pisya();
+    }
+    else if (cont=="co")
+    {
+        pisya();
+    }
+}
+
 function pisya() {
     alert("sosi");
 }
