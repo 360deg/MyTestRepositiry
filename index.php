@@ -22,17 +22,18 @@
     </div>
 
 </div>
-<div class="grad1">
-    <div class="card">
-        <img src="img_avatar.png" alt="Avatar" style="width:100%">
-        <div class="container">
-            <h4><b>John Doe</b></h4>
-            <p>Architect & Engineer</p>
+<div style="background-color: #f1f1f1">
+    <div class="grad1">
+        <div class="card">
+            <img src="img_avatar2.png" onclick="openNav()" alt="Avatar" style="width:100%">
+            <div class="container">
+                <h4 style="margin-top: 8px; margin-bottom: 8px"><b>Hi</b></h4>
+                <p style="margin-top: 8px">Click on picture to navigate</p>
+            </div>
         </div>
     </div>
 </div>
 <!-- Use any element to open/show the overlay navigation menu -->
-<button onclick="openNav()">open</button>
 <button onclick="pisya()">pisya</button>
 
 </body>
