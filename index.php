@@ -5,6 +5,9 @@
     <script src=kek.js></script>
     <link rel="shortcut icon" type="image/x-icon" href="icons/favicon.ico" />
     <link rel=stylesheet type="text/css" href="mystyle.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
 <body class="body_class">
 
@@ -52,18 +55,22 @@
 
 </div>
 <div class="body_body">
-    <div class="body_miniContainer">
-        <div class="body_kartinka">
+    <div class="row">
+        <div class="col-sm-3">
             <img src="img_avatar2.png" onclick="openNav()" alt="Avatar" style="width:100%">
         </div>
-        <div class="body_podpis">
 
+
+        <div class="col-sm-8">
+            sss
         </div>
     </div>
-    <div class="body_megoContainer">
+    <span class="body_podpis">
+            jshfgbsduifhsidfiusdhiv
+    </span>
 
-    </div>
 </div>
+
 
 </body>
 </html>

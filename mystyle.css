@@ -22,21 +22,24 @@
     background-color: chocolate;
     display: inline-block;
     border: solid black 1px;
+
 }
 
 .body_kartinka {
     max-width: 300px;
+
 }
 
 .body_podpis {
     height: 50px;
+    display: inline;
 }
 
 .body_megoContainer {
     margin-left: 15px;
     margin-right: auto;
     background-color: #d2ac41;
-    display: inline-block;
+    display: inline;
     max-width: 750px;
     width: 100%;
     height: 500px;
