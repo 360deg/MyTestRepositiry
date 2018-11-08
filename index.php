@@ -52,22 +52,47 @@
  */?>
 
 <div class="body_shapochka">
-
+    Hello World
 </div>
 <div class="body_body">
     <div class="row">
         <div class="col-sm-3">
-            <img src="img_avatar2.png" onclick="openNav()" alt="Avatar" style="width:100%">
+            <img class="body_kartinka" src="img_avatar2.png" onclick="openNav()" alt="Avatar" style="width:100%">
+            <span class="body_podpis">
+                <h4 style="margin-top: 8px; margin-bottom: 8px"><b>Hi</b></h4>
+                <p style="margin-top: 8px">Click on picture to navigate</p>
+            </span>
         </div>
-
-
         <div class="col-sm-8">
-            sss
+            <div class="body_megoContainer">
+                <button class="tablink" onclick="openPage('Home', this, 'red')">Home</button>
+                <button class="tablink" onclick="openPage('News', this, 'green')" id="defaultOpen">News</button>
+                <button class="tablink" onclick="openPage('Contact', this, 'blue')">Contact</button>
+                <button class="tablink" onclick="openPage('About', this, 'orange')">About</button>
+
+                <div id="Home" class="tabcontent">
+                    <h3>Home</h3>
+                    <p>Home is where the heart is..</p>
+                </div>
+
+                <div id="News" class="tabcontent">
+                    <h3>News</h3>
+                    <p>Some news this fine day!</p>
+                </div>
+
+                <div id="Contact" class="tabcontent">
+                    <h3>Contact</h3>
+                    <p>Get in touch, or swing by for a cup of coffee.</p>
+                </div>
+
+                <div id="About" class="tabcontent">
+                    <h3>About</h3>
+                    <p>Who we are and what we do.</p>
+                </div>
+            </div>
         </div>
     </div>
-    <span class="body_podpis">
-            jshfgbsduifhsidfiusdhiv
-    </span>
+
 
 </div>
 
