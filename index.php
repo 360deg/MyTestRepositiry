@@ -57,13 +57,15 @@
 <div class="body_body">
     <div class="row">
         <div class="col-sm-3">
-            <img class="body_kartinka" src="img_avatar2.png" onclick="openNav()" alt="Avatar" style="width:100%">
-            <span class="body_podpis">
-                <h4 style="margin-top: 8px; margin-bottom: 8px"><b>Hi</b></h4>
-                <p style="margin-top: 8px">Click on picture to navigate</p>
-            </span>
+            <div class="body_miniContainer">
+                <img class="body_kartinka" src="img_avatar2.png" onclick="openNav()" alt="Avatar" style="width:100%">
+                <span class="body_podpis">
+                    <h4 style="margin-top: 8px; margin-bottom: 8px"><b>Hi</b></h4>
+                    <p style="margin-top: 8px">Click on picture to navigate</p>
+                </span>
+            </div>
         </div>
-        <div class="col-sm-8">
+        <div class="col-sm-8" style="padding: 0">
             <div class="body_megoContainer">
                 <button class="tablink" onclick="openPage('Home', this, 'red')">Home</button>
                 <button class="tablink" onclick="openPage('News', this, 'green')" id="defaultOpen">News</button>
