@@ -65,7 +65,7 @@
                 </span>
             </div>
         </div>
-        <div class="col-sm-8" style="padding: 0">
+        <div class="col-sm-9" style="padding: 0">
             <div class="body_megoContainer">
                 <button class="tablink" onclick="openPage('Home', this, 'red')">Home</button>
                 <button class="tablink" onclick="openPage('News', this, 'green')" id="defaultOpen">News</button>
